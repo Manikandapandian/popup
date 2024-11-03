@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.navbar{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    left: 10%;
+}
+.container{
+    padding: 20px;
+    
+}
+.book-container{
+
+    padding: 10px;
+    width: 25%;
+    background-color: red;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+  
+
+}
+.book-container button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+}
+.add-button{
+    background-color: brown;
+    border-radius: 100%;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    position: fixed;
+    border: none;
+    bottom: 30px;
+    right: 30px;
+    
+}
+.overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 0px;
+    display: none;
+}
+.popup{
+    position: absolute;
+    padding: 40px;
+    left: 28%;
+    top: 30%;
+    z-index: 2;
+    width: 40%;
+    background-color: red;
+    border-radius: 10px;
+    display: none;
+}
+.popup h2{
+    text-align: center;
+}
+#book-title-input{
+    background: transparent;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    border-bottom: solid black 2px;
+}
+#book-author-input{
+    background: transparent;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    border-bottom: solid black 2px;
+    
+}
+#book-description{
+    background: transparent;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+    font-size: 20px;
+    color: white;
+    border: solid black 2px;
+    
+}
+#add-book{
+    width: 80px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px;
+}
+#cancel-book{ width: 80px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px;
+
+}
+.popup input::placeholder{
+    color: black;
+}
+.popup textarea::placeholder{
+    color: black;
+}
+.popup input:focus{
+    outline: none;
+}
+.popup textarea:focus{
+    outline: none;
+}
